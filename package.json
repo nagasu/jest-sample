@@ -1,5 +1,5 @@
 {
-  "license": "NOLICENSE",
+  "license": "UNLICENSED",
   "scripts": {
     "build": "tsc",
     "test": "jest"
@@ -27,7 +27,7 @@
       "**/*.test.+(ts|js)"
     ],
     "moduleNameMapper": {
-      "^@/(.+)": "<rootDir>/$1"
+      "^@/(.+)": "<rootDir>/src/$1"
     }
   }
 }
